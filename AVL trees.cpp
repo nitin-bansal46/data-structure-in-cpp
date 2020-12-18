@@ -26,14 +26,6 @@ int max(int a, int b){
 }
 
 
-//Node *newNode(int data) {
-//  Node *node = new Node();
-//  node->data = data;
-//  node->left_child = NULL;
-//  node->right_child = NULL;
-//  node->height = 1;
-//  return (node);
-//}
 
 
 Node* leftRotation(Node* x){
@@ -100,25 +92,8 @@ Node* insertNode(Node* node, int data){
 		return node;
 	}
 
-// if(data < node->data){
-//		if(node->left_child != NULL){
-//			insertNode(node->left_child, data);
-//		}
-//		else{
-//			node->left_child = temp;
-//		}
-//	}
-//	else if(data > node->data){
-//		if(node->right_child != NULL){
-//			insertNode(node->right_child, data);
-//		}
-//		else{
-//			node->right_child = temp;
-//		}
-//	}
-//	else{
-//		return node;
-//	}
+return node;
+
 
 	node->height = max(height(node->left_child), height(node->right_child)) + 1;
 	
