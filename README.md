@@ -5,3 +5,4 @@
 3. linked list
 4. doubley linked list
 5. Binary search tree
+6. AVL Tree
